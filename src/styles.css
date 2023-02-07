@@ -1,0 +1,11 @@
+HTML,body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.container{
+    height: 100px;
+    width: 500px;
+    background-color: red;
+}
