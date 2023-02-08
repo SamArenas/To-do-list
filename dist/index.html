@@ -4,14 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To-Do List</title>
 </head>
 <body>
     <div class="container">
-        
+        <div class="to-do">
+            
+            <div class="to-do-head">
+                <h2>THINGS TO DO</h2>
+            </div>
+            <div class="to-do-sidebar">
+                <button class = "add">Add to do</button>
+            </div>
+            
+            <div class="to-do-body">
+                <div class="task">
+                    <input type="checkbox" name="finished" value="false" />
+                    <label for="finished">My Task</label>
+                    <button class="delete">DEL</button>
+                </div>
+            </div>
+        </div>
     </div>
     
 </body>
 
-<script src = "./main.js"></script>
+<script src = "./main.js" defer></script>
 </html>
